@@ -15,16 +15,7 @@ window.addEventListener("load", function(){
 
         }
       });
-      menuClose.addEventListener("click", ()=>{
-        leftMenu.style.display = "none";
-        leftMenuStatus = false;
-        if(leftMenuStatus == false){
-            menuOpen.style.display = "block";
-            menuClose.style.display = "none";
-
-        }
-
-      })
+    
       
 })
     
