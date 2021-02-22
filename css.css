@@ -1,7 +1,143 @@
-#leftMenu{
-    display: none;
-    position: absolute;
-}
-#menuClose{
-    display: none;
-}
+  body{
+      margin: 0;
+      padding: 0;
+      background-color: #121212;
+      font-family: 'Mulish', sans-serif;
+  }
+  h1, h2, h3, h4, h5, h6{
+    font-family: 'Fjalla One', sans-serif;
+  }
+  header{
+      background-color: #000000;
+      width: 100%;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      display: flex;
+      flex-direction: row;
+
+  }
+  nav{
+      color: white;
+      width: 100%;
+      height: 30px;
+     
+  }
+  nav ul{
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      height: 100%;
+      margin-right: 220px;
+  }
+  nav ul li{
+      border-bottom: 2px solid white;
+      margin-left: 30px;
+      height: 100%;
+      padding-bottom: 12px;
+
+  }
+  nav ul li:hover{
+      color: #bb88fc;
+      border-bottom: 2px solid #bb88fc;
+
+  }
+  #sideBarWrapper{
+      display: flex;
+      flex-direction: row;
+      
+  }
+  .onPage{
+      border-bottom:2px solid #bb88fc;
+  }
+  .onPage a{
+    color: #bb88fc;
+    text-decoration: none;
+  }
+  #sidebar {
+    position:absolute;
+    top:0px;
+    left:-200px;
+    width: 200px;
+    height:100%;
+    background:#151719;
+    transition:all 300ms linear;
+    color: white;
+  }
+  #sidebar h2{
+      padding-left: 10px;
+  }
+  #sidebar.active {
+    left:0px;
+  }
+#sideBarButton {
+    margin-left:20px;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: #bb88fc;
+    border: 2px solid white;
+    height: 30px;
+  }
+  #sideBarButton:hover .icon{
+      background: #bb88fc;
+
+  }
+  #sideBarButton:hover{
+    background-color: black;
+    border: 2px solid #bb88fc;
+
+    
+
+  }
+  #sideBarButtonClose{
+    cursor:pointer;
+    margin-right: 20px;
+    margin-top: 10px;
+    font-size: 2em;
+    color: white;
+    /*color: #bb88fc;*/
+    font-weight: bolder;
+  }
+  #sideBarButtonClose:hover{
+    color: #bb88fc;
+  }
+#sideBarButton .icon {
+    display:block;
+    width:30px;
+    height:5px;
+    background: white;
+    margin-bottom:5px;
+    cursor:pointer;
+  }
+  #sideBarButton .icon:nth-child(1){
+    margin-top:2px;
+    margin-bottom: 5px;
+  }
+  #sideBarButton .icon:nth-child(3){
+    margin-bottom: 2px;
+  }
+ 
+
+  main{
+      
+      background-color: gray;
+      margin: 0 auto;
+      width: 60%;
+  }
+  #flex{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+  }
+
+  .link{
+      border-bottom: 4px solid  #bb88fc;
+      padding: 19px;
+
+  }
+  .link:hover{
+          color: #bb88fc;
+
+  }
+ 
+      
