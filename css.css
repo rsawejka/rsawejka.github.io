@@ -1,6 +1,11 @@
+  body{
+      margin: 0;
+      padding: 0;
+  }
   #sideBarWrapper{
       display: flex;
       flex-direction: row;
+      
   }
   #sidebar {
     position:absolute;
@@ -10,17 +15,23 @@
     height:100%;
     background:#151719;
     transition:all 300ms linear;
+    color: white;
+  }
+  #sidebar h2{
+      padding-left: 10px;
   }
   #sidebar.active {
     left:0px;
   }
-  #sidebar #sideBarButton {
-    margin-left:200px;
-    margin-top: 5px;
+#sideBarButton {
+    margin-left:20px;
+    margin-top: 15px
   }
   #sideBarButtonClose{
     cursor:pointer;
     margin-right: 20px;
+    margin-top: 19px;
+    font-size: 1.3em;
 
   }
 #sideBarButton .icon {
@@ -32,6 +43,7 @@
     cursor:pointer;
   }
   main{
+      
       background-color: gray;
       margin: 0 auto;
       width: 60%;
@@ -40,6 +52,12 @@
       display: flex;
       flex-direction: row;
       justify-content: space-between;
+  }
+
+  .link{
+      border-bottom: 2px solid white;
+      padding: 19px;
+
   }
  
       
