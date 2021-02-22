@@ -1,6 +1,19 @@
   body{
       margin: 0;
       padding: 0;
+      background-color: #121212;
+      font-family: 'Mulish', sans-serif;
+  }
+  h1, h2, h3, h4, h5, h6{
+    font-family: 'Fjalla One', sans-serif;
+  }
+  header{
+      background-color: #000000;
+      width: 100%;
+      
+      padding-top: 30px;
+      padding-bottom: 30px;
+
   }
   #sideBarWrapper{
       display: flex;
@@ -25,21 +38,26 @@
   }
 #sideBarButton {
     margin-left:20px;
-    margin-top: 15px
   }
   #sideBarButtonClose{
     cursor:pointer;
     margin-right: 20px;
-    margin-top: 19px;
-    font-size: 1.3em;
-
+    margin-top: 10px;
+    font-size: 2em;
+    color: white;
+    /*color: #bb88fc;*/
+    font-weight: bolder;
+  }
+  #sideBarButtonClose:hover{
+    color: #bb88fc;
   }
 #sideBarButton .icon {
     display:block;
     width:30px;
     height:5px;
-    background:#151719;
-    margin:5px 0px;
+    background: white;
+    
+    margin-bottom:5px;
     cursor:pointer;
   }
   main{
@@ -55,8 +73,12 @@
   }
 
   .link{
-      border-bottom: 2px solid white;
+      border-bottom: 4px solid  #bb88fc;
       padding: 19px;
+
+  }
+  .link:hover{
+          color: #bb88fc;
 
   }
  
