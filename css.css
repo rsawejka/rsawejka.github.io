@@ -47,6 +47,10 @@
       flex-direction: row;
       
   }
+  a{
+      color: white;
+      text-decoration: none;
+  }
   .onPage{
       border-bottom:2px solid #bb88fc;
   }
