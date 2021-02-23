@@ -176,18 +176,30 @@
     justify-content: space-around;
   }
   #projectsContainer{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+   margin: 0 auto;
+   width: 50%;
   }
-  .projectThumbnail{
-    height: 100px;
-    width: 100px;
-    background-color: blue;
+  .projectThumbnail1{
+    background-image: url("img/wordpressDev.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+  }
+  #top{
+    height: 70%;
+    width: 100%;
+    opacity: 30%;
+    background-color: #bb88fc;
+    border-bottom: 2px solid black;
   }
   #view{
-    height: 100%;
+    background-color: #bb88fc;
+    color: white;
+    opacity: 30%;
+    height: 30%;
     width: 100%;
-    opacity: 60%;
+    text-align: center;
   }
+
       
