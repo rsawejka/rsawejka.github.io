@@ -143,5 +143,36 @@
           color: #bb88fc;
 
   }
- 
+
+  #resumeMain{
+    color: black;
+    background-color: white;
+    width: 40%;
+    padding: 50px;
+  }
+  #resumeMain a{
+    color: black;
+    border-bottom:2px dotted #bb88fc;
+  }
+  #contactFlex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  #title{
+    text-align: center;
+  }
+  .resumeFlex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .bold{
+    font-weight: bolder;
+  }
+  .listFlex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
       
