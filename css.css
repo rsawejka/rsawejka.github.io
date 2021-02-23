@@ -175,4 +175,19 @@
     flex-direction: row;
     justify-content: space-around;
   }
+  #projectsContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .projectThumbnail{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+  }
+  #view{
+    height: 100%;
+    width: 100%;
+    opacity: 60%;
+  }
       
