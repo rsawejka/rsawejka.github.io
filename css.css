@@ -184,10 +184,15 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
+    width: 90%;
+  }
+  .projectThumbnail1:hover{
+    height: 500px;
     width: 100%;
+    transition: width .5s, height .5s;
   }
   #top{
-    height: 70%;
+    height: 90%;
     width: 100%;
     opacity: 30%;
     background-color: #bb88fc;
@@ -197,9 +202,14 @@
     background-color: #bb88fc;
     color: white;
     opacity: 30%;
-    height: 30%;
+    height: 10%;
     width: 100%;
     text-align: center;
+  }
+  #view span {
+    background-color: grey;
+    padding: 8px;
+    padding-top: 8px;
   }
       
 
