@@ -14,7 +14,7 @@ window.addEventListener("load", function () {
 
   });
   var thumbNailOne = document.getElementById("p1");
-  var button = "<a href='resume.html'><button  id='view'>view</button></a>";
+  var button = "<a href='http://rsawejka.bitlampsites.com/wpd/wordpress/wordpressfinal/'><div id='top'></div><div id='view'><span>view</span></div></a>";
 
   thumbNailOne.addEventListener("mouseenter", ()=>{
     thumbNailOne.innerHTML = button;
