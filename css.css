@@ -307,3 +307,9 @@
 #skills{
   margin-top: 30px;
 }
+footer{
+  background-color: #363636;
+  color: white;
+  text-align: center;
+  padding: 90px;
+}
