@@ -276,10 +276,34 @@
   #classesIveTaken{
     padding: 40px;
   }
+  #goals{
+    padding: 40px;
+
+  }
   .MyLinks{
     color: #bb88fc;
     border-bottom: 2px solid #bb88fc;
     margin-right: 9px;
   }
-      
-
+  #welcome{
+    margin-top: 40px;
+    font-size: 2.7em;
+    text-align: center;
+  }
+  #homePage{
+    padding: 40px;
+  }
+  #checkOut{
+    text-align: center;
+  }
+  #checkOut button{
+    margin-top: 60px;
+    background-color: #bb88fc;
+    border: none;
+    font-size: 1.3em;
+    padding: 30px;
+    border-radius: 100px;
+  }
+#skills{
+  margin-top: 30px;
+}
