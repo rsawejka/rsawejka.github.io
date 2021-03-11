@@ -123,10 +123,11 @@
  
 
   main{
-      
-      background-color: gray;
+      color: white;
+      background-color: #222;
       margin: 0 auto;
       width: 60%;
+      padding-bottom: 100px;
   }
   #flex{
       display: flex;
@@ -143,5 +144,121 @@
           color: #bb88fc;
 
   }
+
+  #resumeMain{
+    color: black;
+    background-color: white;
+    width: 40%;
+    padding: 50px;
+  }
+  #resumeMain a{
+    color: black;
+    border-bottom:2px dotted #bb88fc;
+  }
+  #contactFlex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  #title{
+    text-align: center;
+  }
+  .resumeFlex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .bold{
+    font-weight: bolder;
+  }
+  .listFlex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  #myProjectsh2{
+    color: white;
+    margin-left: 30px;
+    margin-top: 30px;
+  }
+  #projectsContainer{
+   margin: 0 auto;
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+   padding-bottom: 30px;
+  }
+  #projectsContainer .box h3{
+    color: white;
+  }
+  #projectsContainer .box{
+    height: 300px;
+    width: 40%;
+    margin-bottom: 100px;
+    margin-top: 50px;
+
+  }
+  .description{
+    padding-bottom: 30px;
+  }
+  .projectThumbnail1{
+    background-image: url("img/wordpressDev.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .projectThumbnail2{
+    background-image: url("img/WebDesignFinal.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    margin-bottom: 20px;
+
+  }
+  .projectThumbnail3{
+    background-image: url("img/javascriptTwoFianl.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 100%;   
+    margin-bottom: 20px;
  
+  }
+  .projectThumbnail4{
+    background-image: url("img/IWDFinal.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 100%;   
+    margin-bottom: 20px;
+ 
+  }
+  #view{
+    background-color: #bb88fc;
+    color: white;
+    opacity: 30%;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 80px;
+  }
+  #viewButton{
+    padding-top: 150px;
+    width: 100%;
+  }
+  #viewButton span {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    padding-top: 8px;
+    margin-top: 100px;
+    width: 100%;
+    border: 4px solid black;
+  }
       
+
