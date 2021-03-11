@@ -140,7 +140,7 @@
       padding: 19px;
 
   }
-  .link:hover{
+  .link a:hover{
           color: #bb88fc;
 
   }
@@ -259,6 +259,27 @@
     margin-top: 100px;
     width: 100%;
     border: 4px solid black;
+  }
+  #aboutMeFlex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 40px;
+  }
+  #aboutMeFlex .me{
+    border-radius: 100px;
+  }
+  #aboutMeFlex .bio{
+    margin-top: 80px;
+    margin-left: 50px;
+  }
+  #classesIveTaken{
+    padding: 40px;
+  }
+  .MyLinks{
+    color: #bb88fc;
+    border-bottom: 2px solid #bb88fc;
+    margin-right: 9px;
   }
       
 
