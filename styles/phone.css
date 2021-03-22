@@ -39,3 +39,6 @@ main{
 .link{
   padding: 10px;
 }
+#aboutMeFlex .me{
+  margin-bottom: 10px;
+}

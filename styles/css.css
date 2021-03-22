@@ -76,6 +76,9 @@ border: 2px solid #bb88fc;
 #projectsContainer{
   margin-bottom: 50px;
 }
+#aboutMeFlex .me{
+  border-radius: 100px;
+}
 #view{
   background-color: #bb88fc;
   color: white;

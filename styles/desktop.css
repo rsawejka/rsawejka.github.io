@@ -127,14 +127,15 @@ main{
 
 
 #aboutMeFlex{
+  
+  padding: 40px;
+}
+#aboutMeFlex{
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  padding: 40px;
 }
-#aboutMeFlex .me{
-  border-radius: 100px;
-}
+
 #aboutMeFlex .bio{
   margin-top: 80px;
   margin-left: 50px;

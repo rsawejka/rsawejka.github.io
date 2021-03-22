@@ -53,3 +53,11 @@ nav ul li:hover{
   .link{
     padding: 10px;
   }
+  #aboutMeFlex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  #aboutMeFlex .bio{
+    margin-left: 30px;
+  }
