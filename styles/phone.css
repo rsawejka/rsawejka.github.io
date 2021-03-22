@@ -13,4 +13,29 @@
   }
   #sideBarButton{
     width: 30px;
+    margin-top: 20px;
+}
+header{
+  display: flex;
+}
+nav{
+  width: 100%;
+  text-align: center;
+}
+nav ul{
+  padding-right: 70px;
+
+}
+nav ul li{
+  margin-top: 8px;
+
+}
+#contactFlex p span{
+  display: none;
+}
+main{
+  padding: 15px;
+}
+.link{
+  padding: 10px;
 }

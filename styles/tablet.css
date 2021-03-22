@@ -3,17 +3,19 @@ header{
     flex-direction: row;
     padding-top: 10px;
   }
+  nav{
+      width: 80%;
+  }
   nav ul{
     list-style: none;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 100%;
-    margin-left: 30px;
+    width: 80%;
 
   }
   nav ul li{
-    margin-left: 30px;
+    
     height: 100%;
     padding-bottom: 12px;
     width: 100%;
@@ -41,4 +43,13 @@ nav ul li:hover{
   #sideBarButton{
       width: 30px;
       
+  }
+  #contactFlex p span{
+    display: none;
+  }
+  main{
+    padding: 15px;
+  }
+  .link{
+    padding: 10px;
   }
